@@ -19,7 +19,7 @@ int main() {
     std::cout << "Ile masz cukierkow?:\n";
     std::cin >> cukierki;
     
-    x = cukierki - (uczniowie - 1);
+    x = cukierki / (uczniowie - 1);
     std::cout << "Kazdy z uczniow dostanie:\n" << x;
     
     y = cukierki - x * (uczniowie - 1);
