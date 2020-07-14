@@ -20,10 +20,10 @@ int main() {
     std::cin >> cukierki;
     
     x = cukierki / (uczniowie - 1);
-    std::cout << "Kazdy z uczniow dostanie:\n" << x;
+    std::cout << "Kazdy z uczniow dostanie: " << x  <<std::endl;
     
     y = cukierki - x * (uczniowie - 1);
-    std::cout << "Tobie zostanie:\n" << y;
+    std::cout << "Tobie zostanie: " << y  <<std::endl;
     
     return 0;
 }
