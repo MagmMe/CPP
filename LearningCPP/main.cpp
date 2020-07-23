@@ -8,22 +8,29 @@
 
 #include <iostream>
 
-int uczniowie;
-int cukierki;
-int x;
-int y;
+using namespace std;
 
-int main() {
-    std::cout << "Ile uczniow jest w klasie?:\n";
-    std::cin >> uczniowie;
-    std::cout << "Ile masz cukierkow?:\n";
-    std::cin >> cukierki;
+int main(){
     
-    x = cukierki / (uczniowie - 1);
-    std::cout << "Kazdy z uczniow dostanie: " << x  <<std::endl;
+    int mojaZmienna = 100;
+    int mojaZmienna2 (100);
+    int mojaZmienna3 ={100};
+    int mojaZmienna4 {400};
+    bool mojaZmienna5;
+    mojaZmienna5 = 3;   // return 0 or 1
     
-    y = cukierki - x * (uczniowie - 1);
-    std::cout << "Tobie zostanie: " << y  <<std::endl;
+    int mojaZmienna6 = 1'234'556'789;
+    long long mojaZmienna7 = 123'455'666'778'893'456;
+    
+    cout << mojaZmienna << endl;
+    cout << mojaZmienna2 << endl;
+    cout << mojaZmienna3 << endl;
+    cout << mojaZmienna4 << endl;
+    
+    cout << mojaZmienna5 << endl;
+    cout << mojaZmienna6 << endl;
+    cout << mojaZmienna7 << endl; 
     
     return 0;
 }
+
